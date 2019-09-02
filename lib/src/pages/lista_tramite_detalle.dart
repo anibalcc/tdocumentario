@@ -47,7 +47,7 @@ class ListaTramiteDetallePage extends StatefulWidget {
 
 class _ListaTramiteDetalle extends State<ListaTramiteDetallePage> {
   static const String _baseDetalleTramite =
-      "http://190.108.89.83/TramiteDocumentario2019/tramites/listar_historial";
+      "http://URL/TramiteDocumentario2019/tramites/listar_historial";
   @override
   void initState() {
     super.initState();
