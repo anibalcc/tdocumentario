@@ -13,7 +13,7 @@ class Api {
 
   //Dio dio = Dio();
   Dio dio = new Dio(new BaseOptions(
-      baseUrl: "http://190.108.89.83/TramiteDocumentario2019/tramites/",
+      baseUrl: "http://URL/TramiteDocumentario2019/tramites/",
       connectTimeout: 5000,
       receiveTimeout: 100000,
       // 5s
@@ -24,15 +24,15 @@ class Api {
       responseType: ResponseType.plain));
 
   static const String _baseBuscaTramiteDoc =
-      "http://190.108.89.83/TramiteDocumentario2019/tramites/buscar_tramite_expediente/";
+      "http://URL/TramiteDocumentario2019/tramites/buscar_tramite_expediente/";
   static const String _baseBuscaTramiteDoc2 =
-      "http://190.108.89.83/TramiteDocumentario2019/tramites/buscar_tramite/";
+      "http://URL/TramiteDocumentario2019/tramites/buscar_tramite/";
   static const String _baseDetalleTramite =
-      "http://190.108.89.83/TramiteDocumentario2019/tramites/listar_historial";
+      "http://URL/TramiteDocumentario2019/tramites/listar_historial";
 
   Uri uri = Uri(
       path:
-          "http://190.108.89.83/TramiteDocumentario2019/tramites/listar_historial");
+          "http://URLTramiteDocumentario2019/tramites/listar_historial");
 
   Future fetchTramitePorExpediente(int expediente) async {
     //
